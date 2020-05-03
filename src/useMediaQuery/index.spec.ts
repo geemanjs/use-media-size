@@ -1,5 +1,5 @@
 import { renderHook } from "@testing-library/react-hooks";
-import { useMediaQuery } from "./useMediaQuery";
+import { useMediaQuery } from "./index";
 
 const mockMatchMedia = (shouldMatch: (query?: string) => boolean) => {
   const addListener = jest.fn();
