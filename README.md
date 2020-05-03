@@ -1,12 +1,12 @@
 ## useMediaSize hook
 
 <!-- prettier-ignore-start -->
-[![Build Status][build-badge]][build]
-[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
-[![MIT License][license-badge]][license]
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Geeman201/use-media-size?style=flat-square)
+![npm](https://img.shields.io/npm/dm/use-media-size?style=flat-square)
+![NPM](https://img.shields.io/npm/l/use-media-size?style=flat-square)
 
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
+![GitHub watchers](https://img.shields.io/github/watchers/geeman201/use-media-size?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Geeman201/use-media-size?style=social)
 <!-- prettier-ignore-end -->
 
 ### Installation
