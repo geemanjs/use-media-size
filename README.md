@@ -1,5 +1,20 @@
 ## useMediaSize hook
 
+<!-- prettier-ignore-start -->
+[![Build Status][build-badge]][build]
+[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
+
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+<!-- prettier-ignore-end -->
+
+### Installation
+```
+npm install --save use-media-size
+yarn add use-media-size
+```
+
 ### When shouldn't I use this library?
 By its nature this library is controversial, I dislike the idea of mixing media queries within javascript.
 In some use cases however, it is beneficial to hide a tree of components depending on media size. 
