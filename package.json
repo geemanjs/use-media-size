@@ -1,0 +1,43 @@
+{
+  "name": "use-media-size",
+  "version": "1.0.0",
+  "description": "Hook for monitoring the size of the current active browser window",
+  "main": "dist/use-media-size.js",
+  "umd:main": "dist/use-media-size.umd.js",
+  "module": "dist/use-media-size.mjs",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "microbundle --jsx",
+    "dev": "microbundle watch",
+    "test": "jest"
+  },
+  "author": "James Gee",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "husky": "^4.2.5",
+    "jest": "^25.5.4",
+    "jest-cli": "^25.5.4",
+    "microbundle": "^0.11.0",
+    "precise-commits": "^1.0.2",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^25.4.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  }
+}
