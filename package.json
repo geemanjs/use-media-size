@@ -14,7 +14,6 @@
   },
   "main": "dist/use-media-size.js",
   "umd:main": "dist/use-media-size.umd.js",
-  "module": "dist/use-media-size.mjs",
   "typings": "dist/index.d.ts",
   "source": "src/index.ts",
   "scripts": {
