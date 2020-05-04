@@ -5,13 +5,13 @@ import { MediaSizesState } from "../useMediaSizeQueries/MediaSizeQueriesContextP
 export const useMediaSize = (overrideSizes?: MediaSizesState) => {
   const defaultSizes = useMediaSizeQueries();
   let joinedSizes;
-  if(!overrideSizes) {
+  if (!overrideSizes) {
     joinedSizes = defaultSizes;
   } else {
     joinedSizes = {
       ...defaultSizes,
-      ...overrideSizes
-    }
+      ...overrideSizes,
+    };
   }
   return {
     isSm: useMediaQuery(`(max-width: ${joinedSizes.sm})`),

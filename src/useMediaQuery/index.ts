@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
 const isClient = typeof window === "object";
 // Based upon a mix of:
@@ -13,14 +13,12 @@ export const useMediaQuery = (query: string) => {
   useEffect(() => {
     let mounted = true;
     const onMediaMatchChange = ({
-      matches,
-    }: MediaQueryListEvent | MediaQueryList) => {
+                                  matches,
+                                }: MediaQueryListEvent | MediaQueryList) => {
       if (!mounted) {
         return;
       }
-      if (matches) {
-        setIsMatch(matches);
-      }
+      setIsMatch(matches);
     };
     const matcher = window.matchMedia(query);
     const isModernBrowser = !!!matcher.addEventListener;

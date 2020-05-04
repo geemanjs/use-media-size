@@ -1,6 +1,6 @@
 {
   "name": "use-media-size",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hook for monitoring the size of the current active browser window",
   "keywords": [
     "media",
