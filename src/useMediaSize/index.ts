@@ -14,9 +14,9 @@ export const useMediaSize = (overrideSizes?: MediaSizesState) => {
     };
   }
   return {
-    isSm: useMediaQuery(`(max-width: ${joinedSizes.sm})`),
-    isMd: useMediaQuery(`(max-width: ${joinedSizes.md})`),
-    isLg: useMediaQuery(`(max-width: ${joinedSizes.lg})`),
-    isXl: useMediaQuery(`(max-width: ${joinedSizes.xl})`),
+    isSm: useMediaQuery(`(max-width: ${joinedSizes.sm}px)`),
+    isMd: useMediaQuery(`(max-width: ${joinedSizes.md}px)`),
+    isLg: useMediaQuery(`(max-width: ${joinedSizes.lg}px)`),
+    isXl: useMediaQuery(`(max-width: ${joinedSizes.xl}px)`),
   };
 };
