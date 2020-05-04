@@ -1,6 +1,6 @@
 {
   "name": "use-media-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hook for monitoring the size of the current active browser window",
   "keywords": [
     "media",
@@ -13,11 +13,10 @@
     "url": "https://github.com/Geeman201/use-media-size.git"
   },
   "main": "dist/use-media-size.js",
-  "umd:main": "dist/use-media-size.umd.js",
   "typings": "dist/index.d.ts",
   "source": "src/index.ts",
   "scripts": {
-    "build": "microbundle --jsx",
+    "build": "microbundle --jsx React.createElement --external react",
     "dev": "microbundle watch",
     "test": "jest"
   },
